@@ -41,6 +41,9 @@
     margin-bottom: 44px;
     line-height: 20px;
 }
+.btn:hover, .banner-btn .second-btn:hover, .banner-btn .first-btn:hover{
+    background-color: rgb(89, 120, 93);
+}
 
 
 
@@ -226,3 +229,29 @@ nav ul li a:hover{
     margin-top: 16px;
 }
 
+footer{
+    height: 348px;
+    padding: 120px 120px 30px;
+    background-color: #001931;
+}
+
+footer .social{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+footer .social h5{
+    font-size: 20px;
+    font-weight: 500;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+footer .social .icons{
+    display: flex;
+    gap: 16px;
+}
+footer .copyright p{
+    font-size: 16px;
+    color: #FAFAFA;
+    margin-top: 30px;
+}
