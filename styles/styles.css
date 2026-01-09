@@ -145,6 +145,7 @@ nav ul li a:hover{
     border-radius: 4px;
     cursor: pointer;
 }
+
 .notes{
     background-color: #fcfafa97;
     padding: 68px 120px 0;
@@ -179,4 +180,30 @@ nav ul li a:hover{
 .card-info p{
     font-size: 16px;
     color: #627382;
+}
+
+.second-brain{
+    width: 86%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+}
+.second-brain .section-heading h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.second-brain .knowledge img{
+    border-radius: 12px;
+}
+.second-brain ul li{
+    display: flex;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
 }
